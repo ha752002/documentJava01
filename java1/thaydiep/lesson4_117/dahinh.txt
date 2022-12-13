@@ -1,0 +1,31 @@
+
+
+       -ĐA HÌNH-
+
+        Citizen c = new Student(); // goi la tính đa hình
+           c.input();
+           c.display();
+
+        - Khi code thì nó hiểu c là lớp đối tượng Citizen
+        - khi mà run thì nó lại hiểu c là Student 
+        => gọi là tính chất đa hình
+
+        // NHƯNG MÀ NẾU gọi c đến lớp learning thì lại bị lỗi 
+           // nên ngta sẽ call về Student
+           if(c instanceof Student){
+               ((Student) c).learning();
+           }
+
+      // ứng dụng tại sao phải sử dụng tính đa hình
+           ArrayList<Citizen> list = new ArrayList<>();
+           ArrayList<Student> list2 = new ArrayList<>();
+           
+           //+ Quản lý nhập và hiển thị thông tin dữ liệu của Citizen và Student
+           //+Bình thường sẽ tạo 2 bảng khác nhau như trên 
+           // + có cách khác là sử dụng 1 mảng để quản lý 2 đối tượng trên
+           //=>>> dùng tính đa hình
+           Citizen ci = new Citizen();
+           list.add(ci);
+           
+           ci = new Student();
+           list.add(ci);

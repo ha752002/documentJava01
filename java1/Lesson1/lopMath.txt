@@ -1,0 +1,16 @@
+
+Method Math : chứa các phương thức hỗ trợ thao tác toán học
+vd: Tìm giá trị nhỏ nhát , lớn nhất , tính trị tuyệt đối, căn bậc 2, ...\
+
+ int a = 100, b = 265 ;
+        float x = -322.822f;
+        
+        
+        // Tim gia trị lớn nhất trong 2 giá trị a , b 
+        int max = Math.max(a, b);
+        int min = Math.min(a, b);
+        System.out.println("max a, b = " + max);
+        System.out.println("min a,b = " + min);
+        
+        // log(a) trả về giá trị logarit
+        System.out.println("log(a)= " + Math.log(a));

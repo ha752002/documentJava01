@@ -1,0 +1,18 @@
+Phương Thức : là tập lệnh cú pháp nhóm lại trong 1 lớp để TH 1 chức năng nào đó ;
+            - Tái sử dụng lại code;
+            - còn có tên gọi khác là (function)
+Cú pháp :
+        ACCESS_Modifier type name(params){
+            body
+        }
+Gọi Phương Thức ra để dùng: 
+        Tên(Danh sách tham số)
+
+
+public static void main(String[] args) {
+        public : là access modifier 
+        nếu mà k trả về gì thì cứ để void
+        nếu trả về thì để giá trị (vidu int)
+
+        Main là tên phương thức
+    }

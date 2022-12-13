@@ -1,0 +1,15 @@
+
+
+//TOÁN TỬ 2 NGÔI(nghĩa là có cả vế trái và phải của phép toán )
+  int a= 10, b= 25;
+        int sum = a + b + 33 - 44;
+        System.out.println("sum = " + sum);
+
+    - phép chia mẫu số phải #0
+        float x = (float) a / b;
+        System.out.println("x = " + x );
+    - phép chia lấy dư
+        System.out.println("a % b = " + (a % b));
+
+//TOÁN TỬ 1 NGÔI (một số hạng + với phép toán ++ hoặc --)
+ a ++; ++ a;

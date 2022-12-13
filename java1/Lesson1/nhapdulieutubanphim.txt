@@ -1,0 +1,36 @@
+Nhap dữ liêu từ bàn phím
+THực hiện thông qua đối tượng scanner 
+Các bước thực hiện :
++Tạo đối tượng lớp scanner
++gọi phương thức nextX, X có thể là kiểu dlieu nao đó vdu như Int , ,,,,
+
+
+public class inputformKeyBoard {
+    public static void main(String[] args) {
+        int a, x;
+        float f;
+        double d;
+        boolean b;
+        String firstName;
+        String fullName;
+        
+        
+        Scanner scanner = new Scanner(System.in); 
+//        scanner.nextInt();
+        
+//        System.out.println("Nhap 2 gia tri: ");
+//        a = scanner.nextInt();
+//        x = scanner.nextInt();
+//        System.out.println("a = " + a + ", x = " + x );
+        
+        // BOOLEAN
+//        System.out.println("Nhap vao gia tri True or false: ");
+//        b = scanner.nextBoolean();
+//        System.out.println("Ban vua nhap : " + b);
+        
+        // neu sử dụng nhap 1 từ thôi
+        System.out.println("Nhap vao tên của bạn : ");
+        firstName = scanner.next();
+        System.out.println("Xin chao : " + firstName);
+    }
+}

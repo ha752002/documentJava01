@@ -1,0 +1,12 @@
+.wrap-layout {
+    width: 100%;
+    background: #ccc;
+    display: flex;
+    
+}
+
+.wrap-layout-item {
+    background: rgb(230, 156, 193);
+    flex-basis: 30%;
+    justify-content: space-around;
+}

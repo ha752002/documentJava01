@@ -1,0 +1,19 @@
+
+=====================TREAM CÓ 2 KHÁI NIỆM===============
+//TREAM
+        // hiển thị dữ liệu theo kiểu tream
+        Stream st1 =list.stream();
+        st1.forEach(System.out::println); 
+
+        /TREAM
+        // hiển thị dữ liệu theo kiểu tream
+        System.out.println("=======T1====");
+        //DÙNG 1 LUỒNG
+        Stream st1 =list.stream();
+        st1.forEach(System.out::println);
+        
+        System.out.println("=======T2====");
+        // ĐA lUÔNG
+        // dùng paralle.. khi k quan trọng hiển thị thứ tự đầu ra 
+        Stream st2 =list.parallelStream();
+        st2.forEach(System.out::println);

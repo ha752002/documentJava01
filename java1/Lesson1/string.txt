@@ -1,0 +1,5 @@
+STRING trong java
+- String dùng để lưu trữ các chuoix kí tự 
+- Lấy độ dài chuôi kí tư : Length()
+- Viết hoa , viết thường chuôi : toUpperCase(), toLowerCase(),....
+-Các kí tự đặc biệt 

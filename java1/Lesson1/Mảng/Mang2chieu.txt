@@ -1,0 +1,6 @@
+MANG 2 CHIEU :
+- kHAI BAOS : Kiểu [][] ten_mang;
+- khoi tao 
+-TRUY XUAT PHAN tử
+-Cấp PHÁT
+-Duyệt Mảng 2 chiều 

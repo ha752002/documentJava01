@@ -1,0 +1,35 @@
+- nhược điểm của structure progamming :
+	tuy rõ ràng nhưng phức tạp và bị chậm
+	khó khăn với người mới vào
+	oop là object-oriented progamming
+
+	Object represents an entity which possesses certain features and behaviors
+	Đối tượng đại diện cho một thực thể sở hữu một số tính năng và hành vi nhất định
+
+	class is a template that used to create objects of that class
+	lớp là một khuôn mẫu được sử dụng để tạo các đối tượng của lớp đó
+
+	abstraction is a design technique that focuses only on the essential features of an entity for a specific problem domain
+	trừu tượng hóa là một kỹ thuật thiết kế chỉ tập trung vào các tính năng thiết yếu của một thực thể cho một miền vấn đề cụ thể
+
+	encapsulation is a mechnism that combines data and implement
+
+	objects quan trọng nhất là feature và behavior
+
+	4 đặc tính cơ bản trong oop kế thừa, đa hình, trừu tượng, (bao đóng,đóng gói);
+
+	Nhắc đến đối tượng là có actribute và action.
+
+	-class comprises field and method collectively called as members
+
+	-field are variables that depict behavior of objects
+
+	-method are function that depict behavior or objects 
+
+	lớp bao gồm trường và phương thức được gọi chung là thành viên
+
+	trường là các biến mô tả hành vi của các đối tượng
+
+	phương thức là hàm mô tả hành vi hoặc đối tượng.
+	
+	class là template để tạo dc objects

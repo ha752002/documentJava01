@@ -1,0 +1,15 @@
+
+TINH KE THỪA
+
+public Student(String rollno, String email, String fullName, String address, String cmtnd, int age) {
+        super(fullName, address, cmtnd, age);
+        this.rollno = rollno;
+        this.email = email;
+    }
+    
+    - TỪ KHÓA SUPER Ý NÓI ĐẾN LỚP  CHA
+    - Citizen : ngta gọi là  parent class( lớp cha)
+    - Studnet :ngta gọi là child class( lớp con)
+
+    - input ở lớp con người ta gọi là ghi đè phương thức : 
+    khi đó ta phải thêm từ khóa override

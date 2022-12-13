@@ -1,0 +1,13 @@
+@import url(name.css);
+
+.h1 {
+    background-color: var(--text-color);
+}
+
+.h3 {
+   background-color: (--black-color);
+}
+
+.h4 {
+    background-color:  var(--);
+}

@@ -1,0 +1,5 @@
+Cấu trúc lặp for dùng để lặp lại đoạn chương trình khi biêt chính xác số lần lặp
+Cú pháp tổng quát :
+for(khởi tạo; điều kiện; bước nhảy ){
+    Nội dung cần lặp 
+}

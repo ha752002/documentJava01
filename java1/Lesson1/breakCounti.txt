@@ -1,0 +1,4 @@
+Lệnh Break ,Continue
+Break dùng để thoát khỏi vòng lăpj
+Continue dùng dderebor qua vòng lặp hiện thời 
+  

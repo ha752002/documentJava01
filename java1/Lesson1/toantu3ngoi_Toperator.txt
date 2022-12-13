@@ -1,0 +1,20 @@
+TOÁN TỬ 3 NGÔI: được gán giá trị dựa vào điều kiện gán cho biến 
+
+CÚ pháp
+ // toan tu 3 ngoi , khi dung tra ve str1 , khi sai tra ve str2
+ variable = (condition) ? ValuelfTrue=ValuelfFalse
+
+vd:
+
+  Scanner scan = new Scanner(System.in);
+        System.out.println("Nhap vào số a: ");
+        int a = scan.nextInt();
+        
+        String str1 = "a la so chẵn ";
+        String str2 =" a la số lẻ";
+        String str ="";
+        
+       // toan tu 3 ngoi , khi dung tra ve str1 , khi sai tra ve str2
+        str = ( a % 2 == 0 ) ? str1 : str2;
+        
+        System.out.println("kq: " + str);

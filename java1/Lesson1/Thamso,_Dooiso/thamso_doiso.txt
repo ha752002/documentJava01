@@ -1,0 +1,7 @@
+Tham Soos DDoi Soo
+    -Tham số được coi như biến cục bộ của 1 pthuc
+    - bạn có thể khai báo bao nhiêu tham số tùy ý
+    -Gtri truyen vào Pt khi đc gọi là đối số
+Cấu trúc:
+        KIỂU... Tên_Biến;
+        

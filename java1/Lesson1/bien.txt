@@ -1,0 +1,19 @@
+1khái niệm :
+- Biến là nơi lưu trữ tạm thời dữ liệu cho chương trình hoạt động 
+- Biến có nhiều loại : Biến cục bộ , Biến instance , biến static, ...
+- Cú pháp khai báo biến : kiểu_dữ_liệu danh_sách_tên_biến(gồm 1 hoặc nhiều biến);
+
+
+ // kiểu dữ liệu - danh sách tên biến
+        int a; // khai báo biến kiểu số nguyên 
+        int b= 5 ; // nếu mà khi khai báo , mình gán giá trị luôn cho nó thì gọi là KHỞI TẠO GIÁ TRỊ CHO BIẾN 
+ 
+        - khuyến cáo tất cả các biến cục bộ nên khởi tạo giá trị mặc định:
+        + giá trị Mặc định  của số =0;
+        + giá trị Mặc định  của char = null;
+
+
+        f.f= f
+        f.d =d
+        int.long= long
+        

@@ -1,0 +1,7 @@
+TOÁN TỬ GÁN :Assignment0perators
+
+=: phép gán 
++= ,  -=; thêm / bớt giá trị rồi gán 
+*=, %=: nhân/chia bớt giá trị rồi gán 
+
+c = c + a; hoặc c += a;

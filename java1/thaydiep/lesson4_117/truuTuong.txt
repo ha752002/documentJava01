@@ -1,0 +1,2 @@
+- Lam trong class Test và Animal và đog, và cat
+

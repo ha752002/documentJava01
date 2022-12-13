@@ -1,0 +1,54 @@
+- viết tắt ps.. hoac sout + tab.:  public Static void MAIN
+- viết tắt psvm + tab =>   public static void main(String[] args) {}
+
+-   System.out.println(""); xuất có xuống dòng
+    System.out.print(""); xuất không xuống dòng 
+    System.out.printf(""); xuất có định dạng , các ký tự định dạng :
+        + %d : Số Nguyên ;
+        + %f : Số  Thực ;- mặc định là 6 số lẻ
+                         - %.3f định dạng 3 số lẻ
+        + %s : chuỗi;
+- char c = 'C'; Hiển thị kí tự nhớ là nháy đơn 
+- String str="Minh la Ha Dayyy" ; Khai bao chuoi 
+
+- Nhap du lieu 
+       + Scanner tenbien = new Scanner(System.in); // cách khai báo 
+       + // Nhap chuoi
+        System.out.println("Nhap str: ");
+        str = tenbien.nextLine(); nextLine để cho nhập chuỗi
+        
+        System.out.println("Str =" + str); // in ra chuỗi vừa nhập 
+-CHÚ Ý : 
+    + Nếu đang nhập chuỗi mà nhảy sang nhập số nguyên sẽ bị lỗi 
+    =>> CÁCH FIX 1 :
+    tienbien.nextInt();
+    tenbien.nextLine();
+
+    => // FIx 2
+        System.out.println(" Enter Y: ");
+        y = Integer.parseInt(tenbien.nextLine()); // fix ở chỗ này 
+        System.out.println("Int =" + y);
+        
+        System.out.println("Nhap str: ");
+        str = tenbien.nextLine();
+        System.out.println("Str =" + str);
+        
+        
+
+
+package lesson1;
+
+/**
+ *
+ * @author admin
+ */
+public class Main {
+    public static void main(String[] args) {
+        -Main : là lớp đối tượng 
+            + lớp đối tượng : là nơi lưu trữ các thuộc tính , hay hành độn
+            của các đối tượng vd như : quyển sách, sinh viên , điểm, ...
+        - có rất nhiều phương thức : PT tĩnh , PT k tĩnh
+        - Static 
+        System.out.println("hello");
+    }
+}

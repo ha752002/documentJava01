@@ -1,0 +1,8 @@
+ Mảng 1 chiều :
+ - là 1 tập hợp chứa các BIẾN CÙNG KIỂU dưới 1 tên chung
+ - Các PHẦN TỬ of Mảng thường nằm Ở CÁC VÙNG nhớ liền kề nhau 
+ - Cú pháp khai báo mảng: Kiểu dữ liệu[] ten_mang;
+ -Cú pháp khởi tạo mảng :Kiểu[] tên_mảng = {Các giá trị};
+
+
+ - CẤP PHÁT CHO MẢNG :Tên_mảng = new kiểu[Số lượng phần tử];

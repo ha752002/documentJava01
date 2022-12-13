@@ -1,0 +1,6 @@
+
+
+
+if(ĐIỀU KIỆN){
+    Cac cau lenh can thuc hien neu dieu kien dung
+}

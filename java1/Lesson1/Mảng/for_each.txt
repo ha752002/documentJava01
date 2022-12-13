@@ -1,0 +1,5 @@
+
+VONG LAP FOR EACH;
+Sử dụng với các kiểu dữ liệu tập hợp như mảng, arrayList, collections
+Cú pháp :
+        FOR(KIỂU_TÊN_BIẾN : TẬP_HỢP){...}

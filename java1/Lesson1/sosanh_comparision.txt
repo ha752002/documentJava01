@@ -1,0 +1,26 @@
+
+
+TOÁN TỬ= Comparision
+ < : so sánh nhỏ hơn 
+ > : so sánh lớn hơn 
+ <= : so sánh nhỏ hơn hoặc bằng
+ >= : so sánh lớn hơn hoặc băng 
+ == : so sánh tương đương 
+ != : so sánh không tương đương 
+
+ chú ý : khi so sánh phải cùng kiểu 
+
+ public class Comparision {
+    public static void main(String[] args) {
+        int a= 100;
+        int b= 200;
+        System.out.println(" a<b? " + (a < b));
+        System.out.println(" a>b? " + (a > b));
+        System.out.println(" a<=b? " + (a <= b));
+        System.out.println(" a>=b? " + (a >= b));
+        System.out.println(" a==b? " + (a == b));
+        System.out.println(" a!=b? " + (a != b));
+    }
+}
+
+ 
