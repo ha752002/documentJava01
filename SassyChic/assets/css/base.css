@@ -1,0 +1,79 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #777;
+    --header-hight: 167px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+
+html {
+    /* mặc định các trình duyệt đều nghĩ font-size: 100% = 16px */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+
+}
+
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+.grid__full-width {
+    width: 1200px;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+/* header bottom */
+.header-bottom {
+    background-color: #834453;
+}
+
+.header-bottom-navbar {
+    display: flex;
+    align-items: center;
+}
+
+.header-bottom-list {
+    list-style: none;
+    padding-right: 26px;
+    padding-left: 0;
+    margin: 4px 0 4px 0;
+}
+
+.header-bottom-list-icon {
+    color: var(--white-color);
+}
+
+.header-bottom__item-text {
+    color: var(--white-color);
+}
+
+.header-bottom__item {
+    min-height: 26px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.header-bottom-link {
+    text-decoration: none;
+}
+
+.header-bottom-list-icon:first-child {
+    margin: 0 2px 0 0;
+}

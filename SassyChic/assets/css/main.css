@@ -1,0 +1,140 @@
+@import url(base.css);
+
+.header {
+    height: var(--header-hight);
+    background-color: var(--white-color);
+}
+
+.header .header-top {
+    background-color: #F7F7F7;
+}
+
+.header-top-navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top-list {
+    display: inline-flex;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.header-top-navbar__item {
+    display: inline-flex;
+    align-items: center;
+    color: var(--text-color);
+    font-weight: bold;
+    min-height: 26px;
+    margin: 0px 8px 0px 0px;
+    position: relative;
+}
+
+.header-top-navbar-icon {
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+.header-navbar-notify {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    position: absolute;
+    top: 100%;
+    width: 135px;
+    right: -65px;
+    height: 29px;
+    border-radius: 6px;
+    display: none;
+}
+
+.header-navbar-notify h5 {
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 29px;
+    display: table;
+    margin: auto;
+    font-weight: 5;
+}
+
+.header-top-navbar-notify:hover .header-navbar-notify {
+    display: block;
+}
+
+.header-navbar-notify::before {
+    content: "";
+    position: absolute;
+    border-color: transparent transparent var(--black-color) transparent;
+    border-width: 10px 12px;
+    border-style: solid;
+    top: -15px;
+    right: 57px;
+}
+
+.header-top-navbar__item:hover,
+.header-top-icon-link:hover,
+.header-top-navbar-icon:hover {
+    color: var(--black-color);
+    cursor: pointer;
+}
+
+
+/* header main */
+.header-main-category {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-main-logo {
+    width: 172px;
+}
+
+.header-main__logo-img {
+    width: 164px;
+}
+
+.header-main-list {
+    display: inline-flex;
+    justify-content: center;
+    min-width: 240px;
+}
+
+.header-main__item {
+    align-self: center;
+    margin: 0 16px 0 0;
+}
+
+.header-main__item-text:first-child {
+    color: var(--black-color);
+}
+
+.header-main .grid {
+    display: flex;
+}
+
+.header-main__item-img {
+    width: 36px;
+}
+
+.header-main__item-text {
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: var(--text-color);
+}
+
+.header-main-cart {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-main__cart-text {
+    display: inline-flex;
+    list-style: none;
+    color: var(--black-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 12px;
+}
